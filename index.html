@@ -376,8 +376,25 @@
                             </li>
                             <li><p>Terms of Use</p>
                             </li>
-                            <li><p><fb:like href = '' layout = 'standard' show_faces = 'false' width = '400' action = 'like' font = '' colorscheme = 'light'></fb:like></p>
-                            </li>
+                            <!-- the line below is the link to facebook like -->
+                            <!-- <li><p><fb:like href = '' layout = 'standard' show_faces = 'false' width = '400' action = 'like' font = '' colorscheme = 'light'></fb:like></p>
+                            </li> -->
+
+                            <!-- This is a second way of like on fb (via an a tag that takes you to the fb page and automatically likes the page) -->
+                            <!-- <a title="Like this on Facebook"
+                                href="http://www.facebook.com/plugins/like.php?href=http://mywebsite.com&amp;
+                                layout=standard&amp;
+                                show_faces=false&amp;
+                                width=450&amp;
+                                action=like&amp;
+                                colorscheme=light&amp;">
+                                <img title="Facebook Like Button"
+                                src="http://www.4wdaction.com.au/_phpBB/download/file.php?id=68849"
+                                alt=""
+                                height="50"
+                                width="50"
+                                />
+                            </a> -->
                         </ul>
                     </div>
                 </div>
@@ -416,7 +433,7 @@
         <script>
           window.fbAsyncInit = function() {
           FB.init({
-          appId : 'app id',
+          appId : 'app id', // you might need an app id provided by fb
           status : true, // check login status
           cookie : true, // enable cookies to allow the server to access the session
           xfbml : true // parse XFBML
